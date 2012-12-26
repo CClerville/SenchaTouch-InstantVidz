@@ -1,0 +1,46 @@
+{
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "VideoPanel",
+        "designer|userAlias": "videopanel",
+        "cls": [
+            "video-panel"
+        ],
+        "itemId": "videoPanel",
+        "padding": null,
+        "layout": "vbox",
+        "scrollable": null
+    },
+    "id": "ExtBox1-ext-gen12383",
+    "designerId": "01cb5afe-be92-4c54-b11e-b1aa28fad052",
+    "cn": [
+        {
+            "type": "template",
+            "reference": {
+                "name": "tpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "tpl",
+                "implHandler": [
+                    "<tpl for=\".\">  ",
+                    "   <iframe ",
+                    "       class=\"video-player\"",
+                    "       type=\"text/html\" ",
+                    "       src=\"http://www.youtube.com/embed/{videoId}\" ",
+                    "       frameborder=\"0\">",
+                    "   </iframe>",
+                    "</tpl>"
+                ],
+                "designer|displayName": "tpl"
+            },
+            "designerId": "538325e6-8618-48b6-a97a-e5c0119ed89e"
+        }
+    ]
+}

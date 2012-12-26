@@ -1,0 +1,183 @@
+{
+    "type": "tabpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "tabBarPosition": "bottom",
+        "container|animation": "pop",
+        "designer|userClassName": "Main",
+        "alternateClassName": [
+            "main"
+        ],
+        "designer|initialView": true,
+        "fullscreen": true,
+        "itemId": "main",
+        "padding": null
+    },
+    "configAlternates": {
+        "selectSlideDuration": "number",
+        "itemMask": "boolean",
+        "slideButtonDefaults": "object"
+    },
+    "id": "ExtBox1-ext-gen17486",
+    "designerId": "28bbc168-4de2-45f9-8b68-197a0c314185",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "tabBarPosition",
+            "type": "string"
+        }
+    ],
+    "cn": [
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "iconCls": "home",
+                "title": "Home",
+                "designer|userClassName": "MyContainer2",
+                "id": null,
+                "itemId": "homeTab",
+                "padding": 5,
+                "styleHtmlContent": true,
+                "ui": "dark",
+                "layout": null,
+                "scrollable": "vertical"
+            },
+            "designerId": "fb5210c0-e0f0-429d-b5c6-a6a5567576d9",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "iconCls",
+                    "type": "string"
+                }
+            ],
+            "cn": [
+                {
+                    "type": "selectfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MySelectField",
+                        "border": null,
+                        "centered": null,
+                        "cls": [
+                            "source-selectfield"
+                        ],
+                        "itemId": "sourceSelect",
+                        "padding": null,
+                        "style": null,
+                        "styleHtmlContent": null,
+                        "label": null,
+                        "labelWidth": null,
+                        "required": true,
+                        "readOnly": null,
+                        "options": "[\n    {\n        text : \"Youtube\",\n        value: \"youtube\"\n    },\n    {\n        text : \"Vimeo\",\n        value: \"vimeo\"\n    },\n    {\n        text : \"DailyMotion\",\n        value: \"dailymotion\"\n    }\n]"
+                    },
+                    "designerId": "f2dbf60b-01f4-4f36-afd0-42bcf567ff79"
+                },
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": null,
+                        "id": "vidsearchfield",
+                        "itemId": "vidsearchfield",
+                        "width": null
+                    },
+                    "designerId": "2c48de33-3aa8-4368-9434-fd143b9033d7",
+                    "masterInstanceId": "ExtBox1-ext-gen16636"
+                },
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": [
+                            "video-panel"
+                        ]
+                    },
+                    "designerId": "48387798-e7bf-4d98-a76a-2240f5c3b2b2",
+                    "masterInstanceId": "ExtBox1-ext-gen12383"
+                },
+                {
+                    "type": "titlebar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyTitleBar",
+                        "docked": "top",
+                        "id": null,
+                        "itemId": "titleBar",
+                        "title": "InstantVidz"
+                    },
+                    "designerId": "36228eb4-b6a5-418c-8a5b-4c4d4bac140f"
+                }
+            ]
+        },
+        {
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "iconCls": "info",
+                "title": "About",
+                "designer|userClassName": "MyContainer3",
+                "html": null,
+                "id": null,
+                "itemId": "aboutTab",
+                "styleHtmlContent": true,
+                "scrollable": true
+            },
+            "designerId": "80203759-973d-4880-89f7-2e1fe629dc8b",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "iconCls",
+                    "type": "string"
+                }
+            ],
+            "cn": [
+                {
+                    "type": "titlebar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyTitleBar",
+                        "docked": "top",
+                        "id": null,
+                        "itemId": "titleBar",
+                        "title": "App Info"
+                    },
+                    "designerId": "30f5ac63-b3b0-4121-9daf-f67cb1174611"
+                }
+            ]
+        }
+    ]
+}

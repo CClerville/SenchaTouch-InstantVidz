@@ -1,0 +1,100 @@
+{
+    "name": "SenchaTouch_InstantVidz",
+    "settings": {
+        "urlPrefix": "http://localhost:8888/SenchaTouch_InstantVidz/",
+        "spacesToIndent": 4,
+        "exportPath": "",
+        "sdkPath": "/Applications/MAMP/htdocs/sencha-touch-2.1.0-gpl",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 676,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "touch21",
+    "topInstanceFileMap": {
+        "3590c1b1-d94f-4a9e-93b4-c2716c26184e": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "ec850d29-113d-49a4-b92c-15a485b0e6bc": {
+            "paths": [
+                "metadata/view/VideoContainer",
+                "app/view/override/VideoContainer.js",
+                "app/view/VideoContainer.js"
+            ],
+            "className": "VideoContainer"
+        },
+        "407a7f93-9887-4fe2-a5e6-c916d94e608e": {
+            "paths": [
+                "metadata/resource/css"
+            ],
+            "className": "css"
+        },
+        "2f2fa590-413f-451b-ba67-368d4c187df0": {
+            "paths": [
+                "metadata/view/VidSearchField",
+                "app/view/override/VidSearchField.js",
+                "app/view/VidSearchField.js"
+            ],
+            "className": "VidSearchField"
+        },
+        "7f05ced5-d8bd-40be-a770-f224688e6613": {
+            "paths": [
+                "metadata/resource/packager",
+                "",
+                "packager.json"
+            ],
+            "className": "packager"
+        },
+        "89f6f45e-2940-4169-91f6-7d15cd6e8679": {
+            "paths": [
+                "metadata/controller/MainController",
+                "app/controller/override/MainController.js",
+                "app/controller/MainController.js"
+            ],
+            "className": "MainController"
+        },
+        "28bbc168-4de2-45f9-8b68-197a0c314185": {
+            "paths": [
+                "metadata/view/Main",
+                "app/view/override/Main.js",
+                "app/view/Main.js"
+            ],
+            "className": "Main"
+        },
+        "01cb5afe-be92-4c54-b11e-b1aa28fad052": {
+            "paths": [
+                "metadata/view/VideoPanel",
+                "app/view/override/VideoPanel.js",
+                "app/view/VideoPanel.js"
+            ],
+            "className": "VideoPanel"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "ec850d29-113d-49a4-b92c-15a485b0e6bc",
+            "01cb5afe-be92-4c54-b11e-b1aa28fad052",
+            "2f2fa590-413f-451b-ba67-368d4c187df0",
+            "28bbc168-4de2-45f9-8b68-197a0c314185"
+        ],
+        "store": [],
+        "controller": [
+            "89f6f45e-2940-4169-91f6-7d15cd6e8679"
+        ],
+        "model": [],
+        "resource": [
+            "3590c1b1-d94f-4a9e-93b4-c2716c26184e",
+            "407a7f93-9887-4fe2-a5e6-c916d94e608e",
+            "7f05ced5-d8bd-40be-a770-f224688e6613"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

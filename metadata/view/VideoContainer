@@ -1,0 +1,28 @@
+{
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "VideoContainer",
+        "designer|userAlias": "videocontainer",
+        "singleton": null,
+        "cls": [
+            "video-container"
+        ],
+        "height": null,
+        "html": null,
+        "id": null,
+        "itemId": "videoContainer",
+        "maxHeight": null,
+        "padding": null,
+        "style": null,
+        "styleHtmlContent": null,
+        "width": null,
+        "layout": "vbox"
+    },
+    "id": "ExtBox1-ext-gen18335",
+    "designerId": "ec850d29-113d-49a4-b92c-15a485b0e6bc"
+}

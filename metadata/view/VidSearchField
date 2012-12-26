@@ -1,0 +1,23 @@
+{
+    "type": "textfield",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "VidSearchField",
+        "designer|userAlias": "vidsearchfield",
+        "cls": [
+            "vid-searchfield"
+        ],
+        "padding": null,
+        "style": null,
+        "label": null,
+        "autoComplete": true,
+        "autoCorrect": true,
+        "placeHolder": "Search Video"
+    },
+    "id": "ExtBox1-ext-gen16636",
+    "designerId": "2f2fa590-413f-451b-ba67-368d4c187df0"
+}
