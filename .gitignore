@@ -1,2 +1,4 @@
 .sencha/*
+*.zip
+*.yml
 .architect
