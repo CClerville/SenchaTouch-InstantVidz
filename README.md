@@ -4,4 +4,6 @@ http://senchatouch-instantvidz.aws.af.cm/ (maybe not work because of some backen
 
 Screenshots:
 ============
-![Alt text](https://github.com/CClerville/SenchaTouch-InstantVidz/blob/master/Screen%20Shot%202012-12-28%20at%201.51.10%20PM.png)
+![ScreenShot](https://raw.github.com/CClerville/SenchaTouch-InstantVidz/master/Screenshot1.png)
+![ScreenShot](https://raw.github.com/CClerville/SenchaTouch-InstantVidz/master/Screenshot2.png)
+![ScreenShot](https://raw.github.com/CClerville/SenchaTouch-InstantVidz/master/Screenshot3.png)
