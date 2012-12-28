@@ -44,11 +44,14 @@ Ext.define('SenchaTouch_InstantVidz.controller.MainController', {
             sourceSelect = me.getSourceSelect();
 
         Ext.Ajax.request({
-            url: 'util/util.php',
+            url: 'resources/util/util.php',
             method: 'POST',
             params: {
                 keyword: encodeURIComponent(keyword),
                 source: sourceSelect.getValue()
+            },
+            headers: {
+                'Content-Type': 'application/json' 
             },
             success: function(response) {
                 videoPanel.setData(Ext.decode(response.responseText).Camideo.videos);
@@ -69,8 +72,8 @@ Ext.define('SenchaTouch_InstantVidz.controller.MainController', {
         container.setHtml(''.concat(
         '<h2>SenchaTouch - InstantVidz</h2>',
         '<p>Author: <b>Chris Clerville</b></p>',
-        '<p>GitHub: </p>',
-        '<p>Inspired by: ytinstant.com</p>'
+        '<p>GitHub: <a href="https://github.com/CClerville/SenchaTouch-InstantVidz">https://github.com/CClerville/SenchaTouch-InstantVidz</a></p>',
+        '<p>Inspired by: <a href="http://ytinstant.com/">ytinstant.com</a></p>'
         )
         );
     },
@@ -79,18 +82,11 @@ Ext.define('SenchaTouch_InstantVidz.controller.MainController', {
         var me = this,
             videoPanel = me.getVideoPanel();
 
-        //console.log("before: ",videoPanel.getTpl());
-
         if(newValue == 'youtube') {
             videoPanel.setTpl(
             new Ext.XTemplate(
             '<tpl for=".">',  
-            '<iframe', 
-            'class="video-player"',
-            'type="text/html"',
-            'src="http://www.youtube.com/embed/{videoId}"', 
-            'frameborder="0">',
-            '</iframe>',
+            '<iframe class="video-player" type="text/html" src="http://www.youtube.com/embed/{videoId}" frameborder="0" allowFullScreen="true"> </iframe>',
             '</tpl>'
             )
             );
@@ -99,12 +95,7 @@ Ext.define('SenchaTouch_InstantVidz.controller.MainController', {
             videoPanel.setTpl(
             new Ext.XTemplate(
             '<tpl for=".">',  
-            '<iframe', 
-            'class="video-player"',
-            'type="text/html"',
-            'src="http://player.vimeo.com/video/{videoId}"', 
-            'frameborder="0" webkitAllowFullScreen allowFullScreen >',
-            '</iframe>',
+            '<iframe class="video-player" type="text/html" src="http://player.vimeo.com/video/{videoId}" frameborder="0" allowFullScreen="true"> </iframe>',
             '</tpl>'
             )
             );
@@ -112,17 +103,11 @@ Ext.define('SenchaTouch_InstantVidz.controller.MainController', {
             videoPanel.setTpl(
             new Ext.XTemplate(
             '<tpl for=".">',  
-            '<iframe', 
-            'class="video-player"',
-            'type="text/html"',
-            'src="http://www.dailymotion.com/swf/{videoId}"', 
-            'frameborder="0">',
-            '</iframe>',
+            '<iframe class="video-player" type="text/html" src="http://www.dailymotion.com/swf/{videoId}" frameborder="0" allowFullScreen="true"> </iframe>',
             '</tpl>'
             )
             );
         }
-        //console.log("after: ",videoPanel.getTpl());
     }
 
 });

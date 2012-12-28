@@ -29,9 +29,10 @@ Ext.define('SenchaTouch_InstantVidz.view.VideoPanel', {
             '<tpl for=".">  ',
             '   <iframe ',
             '       class="video-player"',
-            '       type="text/html" ',
+            '       type="text/html"',
             '       src="http://www.youtube.com/embed/{videoId}" ',
-            '       frameborder="0">',
+            '       frameborder="0" ',
+            '    allowFullScreen="true">',
             '   </iframe>',
             '</tpl>'
         ]

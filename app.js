@@ -21,6 +21,10 @@ Ext.Loader.setConfig({
 });
 
 Ext.application({
+
+    requires: [
+        'Ext.field.Select'
+    ],
     views: [
         'VideoContainer',
         'VidSearchField',

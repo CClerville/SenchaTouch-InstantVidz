@@ -6,6 +6,9 @@
     },
     "codeClass": null,
     "userConfig": {
+        "requires": [
+            "Ext.field.Select"
+        ],
         "views": [
             "VideoContainer",
             "VidSearchField",
