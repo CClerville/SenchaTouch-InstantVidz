@@ -50,9 +50,7 @@ Ext.define('SenchaTouch_InstantVidz.controller.MainController', {
                 keyword: encodeURIComponent(keyword),
                 source: sourceSelect.getValue()
             },
-            headers: {
-                'Content-Type': 'application/json' 
-            },
+
             success: function(response) {
                 videoPanel.setData(Ext.decode(response.responseText).Camideo.videos);
             },
